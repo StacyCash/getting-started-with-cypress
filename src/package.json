@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "cypress": "./node_modules/.bin/cypress open",
+    "cypress-run": "./node_modules/.bin/cypress run",
+    "cypress-run-a": "./node_modules/.bin/cypress run --spec cypress/integration/examples/a*.spec.js"
+  },
+  "devDependencies": {
+    "cypress": "^4.9.0",
+    "typescript": "^3.9.5"
+  }
+}
